@@ -1,8 +1,22 @@
-# .gitignore
-node_modules/
-*.pyc
+# Ignore Python cache and environment files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
 *.log
 .env
-*.sqlite3
-.idea/
+instance/
+.vscode/
+
+# Backend specific ignores
+/backend/__pycache__/
+/backend/instance/
+/backend/.env
+
+# React (Vite) frontend ignores
+/updatedfrontend/node_modules/
+/updatedfrontend/dist/
+/updatedfrontend/.env
+/updatedfrontend/.DS_Store
+/updatedfrontend/.vite
