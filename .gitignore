@@ -1,0 +1,8 @@
+# .gitignore
+node_modules/
+*.pyc
+__pycache__/
+*.log
+.env
+*.sqlite3
+.idea/
